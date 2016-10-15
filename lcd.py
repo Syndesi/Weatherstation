@@ -24,8 +24,6 @@ lcd = CharLCD()
 # see note in test_16x2.py about configuring your backlight, if you have one
 
 lcd.backlight = True
-input('Display should be blank. ')
-
 
 lcd.clear()
 
@@ -37,3 +35,8 @@ lcd.write_string('Feuchtigkeit: 80%')
 
 lcd.cursor_pos = (2, 0)
 lcd.write_string('Luftdruck: 1.01kPa')
+
+
+lcd.clear()
+lcd.backlight = False
+lcd.close()
