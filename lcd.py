@@ -36,6 +36,7 @@ lcd.write_string('Luftf.:          80%')
 lcd.cursor_pos = (2, 0)
 lcd.write_string('Luftdruck:   1.01kPa')
 
+input('Waiting for ending')
 
 lcd.clear()
 lcd.backlight = False
