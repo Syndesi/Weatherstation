@@ -28,13 +28,13 @@ lcd.backlight = True
 lcd.clear()
 
 lcd.cursor_pos = (0, 0)
-lcd.write_string('Temperatur: 12.3°C')
+lcd.write_string('Temperatur:    12.3C')
 
 lcd.cursor_pos = (1, 0)
-lcd.write_string('Feuchtigkeit: 80%')
+lcd.write_string('Luftf.:          80%')
 
 lcd.cursor_pos = (2, 0)
-lcd.write_string('Luftdruck: 1.01kPa')
+lcd.write_string('Luftdruck:   1.01kPa')
 
 
 lcd.clear()
