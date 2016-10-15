@@ -26,11 +26,14 @@ lcd = CharLCD()
 lcd.backlight = True
 input('Display should be blank. ')
 
+
+lcd.clear()
+
 lcd.cursor_pos = (0, 0)
 lcd.write_string('Temperatur: 12.3°C')
 
-lcd.cursor_pos = (0, 1)
+lcd.cursor_pos = (1, 0)
 lcd.write_string('Feuchtigkeit: 80%')
 
-lcd.cursor_pos = (0, 2)
+lcd.cursor_pos = (2, 0)
 lcd.write_string('Luftdruck: 1.01kPa')
