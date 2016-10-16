@@ -36,6 +36,9 @@ lcd.write_string('Luftfeuchte:   53.4%')
 lcd.cursor_pos = (2, 0)
 lcd.write_string('Luftdruck:   1018hPa')
 
+lcd.cursor_pos = (3, 0)
+lcd.write_string('  @JugendHackt2016')
+
 input('Waiting for ending')
 
 lcd.clear()
